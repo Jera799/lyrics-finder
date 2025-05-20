@@ -15,7 +15,7 @@ async function searchLyrics() {
     const data = await response.json();
 
     if (data.lyrics) {
-      lyricsBox.innerText = data.lyrics;
+      lyricsBox.innerHTML = data.lyrics.replace(/\n/g, "<br>");
     } else {
       lyricsBox.innerText = "Lyrics not found.";
     }
