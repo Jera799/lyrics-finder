@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #a18cd1, #fbc2eb);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a4fcf;
+}
+
+#lyricsBox {
+  margin-top: 30px;
+  text-align: left;
+  white-space: pre-wrap;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
